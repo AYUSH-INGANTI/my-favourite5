@@ -1,0 +1,61 @@
+body{
+  text-align:center;
+  background-color:#64FFDA;
+}
+hi{
+  text-shadow:2px 2px #F8BBDO
+}
+#p{
+  padding:20;
+  font-size:18;
+  text-align:center;
+}
+#h{
+  padding:20;
+  font-size:18;
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color:black;
+}
+#myName{
+    font-family: 'courgette',cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    transition: transform:.2s;
+    border: 10px solid #AAAAAA;
+}
+img:hover{
+transform: scale(0.9)
+}
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10;
+    right: 30;
+    z-index: 10;
+    cursor: pointer;
+}
+.links {
+    float: left;
+    color: aqua;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover {
+    background-color: aqua;
+    color: aliceblue;
+}
